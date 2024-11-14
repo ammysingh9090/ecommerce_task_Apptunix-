@@ -1,0 +1,200 @@
+body {
+    padding: 0px !important;
+}
+
+.navbar.bg-primary {
+    background-color: #DAA824 !important;
+}
+
+.dropdown-menu-right {
+    z-index: 9999;
+}
+
+.bg-primary {
+    background-color: #DAA824 !important;
+}
+
+.loading-container {
+    background-color: #88888857;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+
+.loading-container img {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    z-index: 99999;
+    height: 90px;
+}
+
+.table .thead-light th {
+    color: #384b61;
+    background-color: #f6f9fc;
+}
+
+/* width */
+.custom-scollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.custom-scollbar-sidebar::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+/* Track */
+.custom-scollbar::-webkit-scrollbar-track {
+    background: #ccc;
+}
+
+/* Handle */
+.custom-scollbar::-webkit-scrollbar-thumb {
+    background: #4e4847;
+}
+
+/* Handle on hover */
+.custom-scollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#dropdown ul.nav.navbar-nav {
+    width: 100%;
+}
+
+.navbar-vertical.navbar-expand-xs .navbar-nav .nav-link {
+    padding: 0.675rem 1.2rem !important;
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+}
+
+/* ANshu Bharti 12  August Design */
+
+.navbar-vertical .navbar-nav .nav-link>i {
+    min-width: auto !important;
+}
+
+.navbar-vertical.navbar-expand-xs .navbar-nav>.nav-item a span.nav-link-text {
+    margin-left: 10px;
+}
+
+.navbar-vertical.navbar-expand-xs .navbar-nav .nav-link i {
+    color: #172b4d !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(23 43 77) !important;
+}
+
+nav.navbar.navbar-top.navbar-expand.navbar-dark.bg-primary.border-bottom {
+    background: white !important;
+}
+
+.navbar-vertical.navbar-expand-xs .navbar-nav>.nav-item .panel-body ul.nav.navbar-nav {
+    margin: 0px !important;
+}
+
+.text-white {
+    color: #fff !important;
+    position: relative;
+    z-index: 1000;
+}
+.btn-success:disabled {
+    color: #000000 !important;
+
+}
+.custom_btn {
+    border-radius: 10px;
+
+    transition: all 0.2s ease-out;
+    position: relative;
+}
+.custom-bagde {
+    color: #000000;
+    border-radius: 7px;
+    background-color: #d79409;
+    font-weight: 1000;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #5b3d04 !important;
+}
+
+
+div:where(.swal2-container) .swal2-select {
+    font-size: 16px !important;
+    padding-right: 10px;
+    border-radius: 8px !important;
+    border-color: #af8c04 !important;
+    border: 1px solid #d9d9d9 !important;
+    background: rgb(255 250 230 / 63%) !important;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+div:where(.swal2-container) .swal2-select:focus-visible {
+    outline: none;
+}
+
+div:where(.swal2-container) .swal2-select option {
+    word-break: break-all;
+}
+
+div:where(.swal2-container) .swal2-textarea {
+    height: 8.75em !important;
+    padding: 0.75em !important;
+    width: calc(100% - 5px);
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
+
+.reject-modal:where(.swal2-container) div:where(.swal2-popup) {
+    max-width: 700px;
+    width: 100%;
+
+}
+
+div:where(.swal2-container) .swal2-html-container {
+    padding: -7px;
+    overflow: hidden !important;
+}
+
+.card-header {
+    overflow-x: auto;
+}
+
+/* table {
+    min-height: 166px;
+} */
+/*  */
+
+.form-control {
+    color: #989898;
+    font-weight: 600;
+}
+
+.support-mail-space {
+    font-size: 14px;
+}
+
+.custom-scollbar {
+   min-height: 200px  !important;
+}
+
+#add_button {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.img-thumbnail {
+    height: 133px !important;
+    padding: 0px !important;
+    border-radius: 1.375rem !important;
+}
